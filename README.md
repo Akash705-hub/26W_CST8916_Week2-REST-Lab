@@ -139,23 +139,32 @@ Before you can run or deploy this app, you need to have the following installed:
 
 To run the Flask API on your local machine:
 
-1. Clone this repository:
+1. **Fork this repository** by clicking the "Fork" button at the top right of the GitHub page. This creates your own copy of the repository under your GitHub account.
+
+2. **Clone your forked repository** (replace `YOUR-USERNAME` with your GitHub username):
 
    ```bash
-   git clone https://github.com/ramymohamed10/26W_CST8916_Week2-REST-Lab.git
+   git clone https://github.com/YOUR-USERNAME/26W_CST8916_Week2-REST-Lab.git
    ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    ```bash
    cd 26W_CST8916_Week2-REST-Lab
-3. Install the dependencies:
+   ```
+
+4. Install the dependencies:
    ```bash
    pip install -r requirements.txt
-4. Run the application:
+   ```
+
+5. Run the application:
    ```bash
    python app.py
-5. The API will be running at http://127.0.0.1:8000
-6. Use **test-api.http** to test the REST API using the REST Client extension in Visual Studio Code.
+   ```
+
+6. The API will be running at http://127.0.0.1:8000
+
+7. Use **test-api.http** to test the REST API using the REST Client extension in Visual Studio Code.
 
 ## Deploying to Azure
 
