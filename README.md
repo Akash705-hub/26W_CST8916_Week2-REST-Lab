@@ -112,6 +112,8 @@ Think of it like this:
 
 ## Features
 
+- Welcome message at root URL
+- Health check endpoint
 - Retrieve all users
 - Retrieve a specific user by ID
 - Create a new user
@@ -236,6 +238,8 @@ Browser → http://localhost:8000/             Browser → https://yourapp.azure
 │ ┌────────────────────────┐                     │                           │ │
 │ │ Browser / curl /Postman│                     │ Routes /  Endpoints       │ │
 │ └────────────────────────┘                     │  ───────────────────────  │ │
+│                                                │  GET    /                 │ │
+│                                                │  GET    /health           │ │
 │                                                │  GET    /users            │ │
 │                                                │  GET    /users/{id}       │ │
 │                                                │  POST   /users            │ │
